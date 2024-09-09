@@ -1,0 +1,54 @@
+@import url('https://fonts.google.com/specimen/Open+Sans')
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image:url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    margin: 0 auto;
+    
+
+}
+.wrapper{
+    margin: 0 2rem;
+    padding: 40px 0;
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+}
+.header img{
+    width: 190px;
+    padding-bottom: 60px;
+}
+.main{
+    display: flex;
+    /* align-items: center; */
+    gap: 40px;
+}
+.text h1{
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 35px;
+    font-family:'poppins',sans-serif;
+    margin-top: 70px;
+    line-height: 1 rem;
+}
+.text p{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 13px 50px;
+    border-radius: 25px;
+}
